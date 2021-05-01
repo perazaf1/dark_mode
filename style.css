@@ -1,20 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 *{
     box-sizing: border-box;
 }
-
 body{
+    background: #eee;
+    margin: 0;
+    transition: 0.2s linear;
+    font-family: 'Roboto',sans-serif;
+    color: #333;
+}
+main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     flex-direction: column;
     transition: background 0.2s linear;
     align-items: center;
     text-align: center;
-    font-family: 'Muli';
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: normal;
+    margin: 3rem auto 0;
+    width: 550px;
+    background: rgb(116,176,189);
+    padding: 1rem 2rem 2rem;
+    box-shadow: 1px 2px 6px #333;
+    border-radius: 4px;
 }
 
 body.dark{
@@ -24,6 +36,9 @@ body.dark p{
     color: rgb(0, 124, 27);
     align-items: center;
     text-align: center;
+}
+body.main{
+    background-color: antiquewhite;
 }
 
 
